@@ -1,0 +1,95 @@
+{
+  "explore": [
+    {
+      "id": 1,
+      "tags": "Marketing"
+    },
+    {
+      "id": 2,
+      "tags": "Public Administration"
+    },
+    {
+      "id": 3,
+      "tags": "Healthcare"
+    },
+    {
+      "id": 4,
+      "tags": "Engineering"
+    },
+
+    {
+      "id": 5,
+      "tags": "It services"
+    },
+    {
+      "id": 6,
+      "tags": "Sustainability"
+    },
+    {
+      "id": 7,
+      "tags": "HR Management"
+    }
+  ],
+  "job": [
+    {
+      "id": 1,
+      "tags": "Marketing"
+    },
+    {
+      "id": 2,
+      "tags": "Public Administration"
+    },
+    {
+      "id": 3,
+      "tags": "Healthcare"
+    },
+    {
+      "id": 4,
+      "tags": "Engineering"
+    },
+
+    {
+      "id": 5,
+      "tags": "It services"
+    },
+    {
+      "id": 6,
+      "tags": "Sustainability"
+    },
+    {
+      "id": 7,
+      "tags": "HR Management"
+    }
+  ],
+  "discover": [
+    {
+      "id": 1,
+      "tags": "E-Commerce PlatForms"
+    },
+    {
+      "id": 2,
+      "tags": "Public Administration"
+    },
+    {
+      "id": 3,
+      "tags": "Healthcare"
+    },
+    {
+      "id": 4,
+      "tags": "Engineering"
+    },
+
+    {
+      "id": 5,
+      "tags": "It services"
+    },
+    {
+      "id": 6,
+      "tags": "Sustainability"
+    },
+    {
+      "id": 7,
+      "tags": "HR Management"
+    }
+  ]
+}
