@@ -1,5 +1,8 @@
+import { Link } from "react-router-dom";
 import Header from "../../components/Header/Header";
 import "./feed.scss";
+import Post from "../../components/Post/Post";
+import UserPost from "../../components/UserPost/UserPost";
 
 const Feed = () => {
   return (
@@ -53,23 +56,8 @@ const Feed = () => {
           </div>
 
           <div className="col-md-6">
-            <div className="post">
-
-              <div className="startpost flex gap-[10px] item-center">
-                
-                  <div>
-                  <img
-                    className="w-[70px] h-[70px]  object-cover border-2 rounded-[50%]"
-                    src="/images/dp.png"
-                    alt=""
-                  />
-                  </div>
-                
-                
-                  <div className="w-full " ><button className="w-full h-[50px] mt-[10px] border">Start a post</button></div>
-                
-              </div>
-            </div>
+            <Post/>
+            <UserPost/>
           </div>
 
           <div className="col-md-3">
@@ -80,7 +68,7 @@ const Feed = () => {
               <div className="people ml-[10px] flex gap-2 my-[10px] content-center">
                 <div className="photo w-full mr-[-60px]">
                   <img
-                    className="w-[60px] h-[60px]  object-cover border-2 rounded-[50%]"
+                    className="w-[60px] h-[60px]  object-cover border-1 rounded-[50%]"
                     src="/images/dp.png"
                     alt=""
                   />
@@ -91,7 +79,7 @@ const Feed = () => {
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                     Esse
                   </p>
-                  <button className="border-2 m-[3px]">Follow</button>
+                  <button className="border- m-[3px]">Follow</button>
                 </div>
               </div>
               <div className="people ml-[10px] flex gap-2 my-[10px] content-center">
@@ -129,6 +117,32 @@ const Feed = () => {
                 </div>
               </div>
             </div>
+
+            <Link to='/' >
+            <div className="section-2 mt-[20px] border shadow-lg ">
+              <p className="text-[12px] opacity-65 mt-[10px] mx-[5px]">Sakin,unlock your potential with with LinkedIn Premium</p>
+              <div className="photos flex gap-4 justify-center my-[10px]">
+              <img
+                  className="w-[70px] h-[70px]  object-cover border-1 rounded-[50%]"
+                  src="/images/dp.png"
+                  alt=""
+                />
+                <img
+                  className="w-[70px] h-[70px]  object-cover  rounded-sm"
+                  src="/images/linkedin-icon-10.jpg"
+                  alt=""
+                />
+              </div>
+              <div className="details mb-[10px] ">
+                <div className="text-[14px] mx-[10px]">
+                  See who's viewed your profile in the last 90 days
+                </div>
+                <button className="w-full">
+                  Try for free!
+                </button>
+              </div>
+            </div>
+            </Link>
           </div>
         </div>
       </div>
